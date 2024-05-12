@@ -1,0 +1,33 @@
+{
+  "name": "aws-try",
+  "version": "1.0.0",
+  "description": "Node express on AWS ubuntu server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/index.js",
+    "dev": "nodemon app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luba150278/aws-try.git"
+  },
+  "keywords": [
+    "aws",
+    "ec2",
+    "ubuntu",
+    "linix",
+    "aws"
+  ],
+  "author": "Lyubov Myetolkina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luba150278/aws-try/issues"
+  },
+  "homepage": "https://github.com/luba150278/aws-try#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
